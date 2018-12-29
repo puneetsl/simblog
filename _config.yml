@@ -1,38 +1,18 @@
-title: "Puneet's blog"
-author: "Puneet Singh Ludu "
-description: "My Codes, My Experiences, My Ideas"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Jekyll settings
-permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
-paginate: 2                  # number of articles per page, remove to disable pagination
-excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
+# Site settings
+title: Gravity
+email: hemangsk@gmail.com
+description: The Liberal Jekyll Theme
+baseurl: "/Gravity" # the subpath of your site, e.g. /blog
+url: "http://hemangsk.github.io" # the base hostname & protocol for your site
+twitter_username: hemang_kumar
+github_username:  hemangsk
 
-# Theme settings
-show_excerpts: true         # show article previews on the home page instead of headlines
-date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
-dark_theme: true            # enables dark mode
-dark_header: true           # uses dark header whether dark_theme is enabled or not
-minimal_theme: false         # radically minimalistic theme
-
-navigation:                  # show navigation links in the header
-  - index.html
-  - archive.md
-  - about.md
-
-
-icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
-  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
-  github: "https://github.com/niklasbuschmann/contrast"
-  rss: "/contrast/feed.xml"
-
-comments:                    # embed disqus or isso comments
-#  disqus: "disqus-contrast"
-#  isso: "comments.mysite.org"
-
-remote_theme: niklasbuschmann/contrast
-
-plugins:
- - jekyll-remote-theme
- - jekyll-feed
- - jekyll-paginate
- - jekyll-default-layout
+# Build settings
+markdown: kramdown
