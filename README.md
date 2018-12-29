@@ -1,6 +1,8 @@
 # Simblog
 Github and Jekyll blogging made easy
 
+`Version: 0.01`
+
 ### Why Simblog
 
 After searching a lot, I found no good `hosted`, `free`, `markdown-based` blogging platform. [Ghost](https://ghost.org) is the closest to programmer friendly blogging platform but the hosted solution is [too expensive](https://ghost.org/pricing/) for an enthusiast blogger.
@@ -71,4 +73,14 @@ And now your can write your post
 ![](http://i.imgur.com/UJFatoW.png)
 
 ### Publish
-Run `_scripts/publish.py` and thats it, you will see this message 
+Run `_scripts/publish.py` and thats it, you will see this message
+![](http://i.imgur.com/SGNEXlB.png)
+
+-----
+#### View the blog post at: http://www.puneetsingh.me/simblog/Test-blog-post.html
+-----
+
+### Todo
+* [ ] Introduce themes
+* [ ] introduce `setup.py` to set it up
+* [ ]
