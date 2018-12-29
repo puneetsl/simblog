@@ -1,5 +1,6 @@
-# Simblog
-Github and Jekyll blogging made easy
+![](http://i.imgur.com/uZjkPI5.png)
+
+-----
 
 `Version: 0.01`
 
@@ -83,4 +84,4 @@ Run `_scripts/publish.py` and thats it, you will see this message
 ### Todo
 * [ ] Introduce themes
 * [ ] introduce `setup.py` to set it up
-* [ ]
+* [ ] Make a custom electron app with all these features
