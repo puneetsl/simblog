@@ -17,6 +17,10 @@ So, `Simblog` aims to make this process as easy as possible. Its not only code b
 ### Install/Setup
 Read [setup](setup.md) file and follow steps to start blogging
 
------
-#### View the blog post at: http://www.puneetsingh.me/simblog/Test-blog-post.html
------
+
+### Features
+- Easily add new post
+- Easily publish
+- Jekyll based
+- Add ipynb file easily
+- Use any text editor of your choice (`atom` recommended)
