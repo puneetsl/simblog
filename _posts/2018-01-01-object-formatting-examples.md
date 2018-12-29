@@ -18,6 +18,18 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 {% endhighlight %}
 
+or using github markdown code snippet
+using
+```c
+static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
+{
+    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
+    int64_t enabled = admin->asyncEnabled;
+    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
+    Admin_sendMessage(&d, txid, admin);
+}
+```
+
 
 ## MathJax
 
@@ -37,9 +49,9 @@ $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2
 
 ## Images
 
-Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
+Upload an image to the *assets* folder and embed it with `![title](assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
 
-[![Flower](../assets/flower.jpg)](../assets/flower.jpg)
+[![Flower](assets/flower.jpg)](assets/flower.jpg)
 
 [Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
 
@@ -53,6 +65,6 @@ You can also embed a lot of stuff, for example from YouTube. To scale the video 
 
 You can use a `.large` wrapper to increase the width of an image or iframe:
 
-<a class="large" href="../assets/swiss-alps.jpg">![Swiss Alps](../assets/swiss-alps.jpg)</a>
+<a class="large" href="assets/swiss-alps.jpg">![Swiss Alps](assets/swiss-alps.jpg)</a>
 
 [Swiss Alps](https://unsplash.com/photos/u0DmxB76uF4) by René Reichelt
