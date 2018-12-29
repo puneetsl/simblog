@@ -1,0 +1,17 @@
+busy-signal@1.4.3
+date@2.6.0
+intentions@1.1.5
+language-markdown@0.28.0
+linter@2.2.0
+linter-markdown@5.2.2
+linter-ui-default@1.7.1
+markdown-image-paste@2.5.2
+markdown-pdf@2.2.0
+markdown-preview-enhanced@0.15.8
+markdown-toc@0.4.2
+markdown-writer@2.11.3
+platformio-ide-terminal@2.8.4
+script@3.18.1
+tidy-markdown@3.0.1
+tool-bar@1.1.11
+tool-bar-markdown-writer@0.5.0
