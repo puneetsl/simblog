@@ -1,4 +1,6 @@
-![](http://i.imgur.com/uZjkPI5.png)
+
+<p align="center"><img src="http://i.imgur.com/uZjkPI5.png" alt="Simblog"></p>
+
 
 -----
 
